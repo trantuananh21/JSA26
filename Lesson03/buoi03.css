@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner {
+    background-image: url("hero.jpg");
+    height: 550px;
+    background-size: cover;
+    position: relative;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.wrapper {
+    z-index: 2;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.navbar img {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.slogan {
+    font-size: 30px;
+    margin: 90px 200px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hungry {
+    background-color: #ff9100;
+    color: white;
+    border: 1px solid #ff9100;
+}
+
+.hungry:hover {
+    background-color: transparent;
+    color: #ff9100;
+}
+
+.show {
+    background-color:transparent ;
+    color: #ff9100;
+    border: 1px solid #ff9100;
+}
+
+.show:hover {
+    background-color: #ff9100;
+    color: white;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 30px;
+    text-transform:uppercase ;
+}
+
+.divider {
+    height: 2px;
+    width: 100px;
+    background-color: #ff9100;
+}
+
+.brief {
+    font-weight: 200;
+    color: #7b7b7b;
+    padding: 0 100px;
+    margin: 0 60px;
+    margin-top: 10px;
+}
+
+li h3 {
+    font-size: 18px;
+    text-transform:uppercase ;
+    margin-top: 10px;
+
+}
+li p {
+    font-weight: 300;
+}
+
+li svg {
+    width: 60px;
+    height: 60px;
+    color: #ff9100;
+}
+
+.features ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 30px 60px ;
+    width: 70%;
+}
+
+.first-img {
+    display: flex;
+    width: 25%;
+    height: 270px;
+}
+
+.second-img {
+    display: flex;
+    width: 25%;
+    height: 270px;
+}
+
+#how_it_works #contact {
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.underline {
+    width: 100px;
+    height: 2px;
+    background-color: rgb(245, 169, 55);
+    margin: 10px auto 50px;
+}
+
+.tutorial {
+    margin-top: 50px;
+    display: flex;
+    /* flex-direction: ; */
+    align-items:flex-start;
+    gap: 70px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tutorial img {
+    width: 30%;
+    object-fit: contain;
+    max-width: 150px;
+}
+.tutorial ul {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tutorial ul li {
+    display: flex;
+    gap: 20px;
+}
+
+.tutorial ul li div {
+    color: rgb(245, 169, 55);
+    font-size: 60px;
+    min-width: 40px;
+}
+
+.cities {
+    display: flex;
+    gap: 40px;
+    padding-left: 20%;
+}
+
+.cities img{
+    width: 200px;
+}
+
+.cities ul li {
+    display: flex;
+    gap: 20px;
+}
+
+.cities ul {
+    padding: 0;
+}
+
+.logo-cities {
+    color: #ff9100;
+}
+
+.start {
+    background-color: gainsboro ;
+    height: 500px;
+}
+
+.start h2 {
+    padding-top: 50px;
+}
+
+.sign-up {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.sign-up-header {
+    background-color: #f1f1f1;
+    padding-top: 20px ;
+    padding-left: 10px;
+    width: 20%;
+    padding-bottom: 20px;
+}
+
+.sign-up-header h2 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #ff9100;
+}
+
+.sign-up-header p {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.sign-up-header h3 {
+    margin-top: 10px;
+    padding: 0;
+}
+
+
+.content {
+    background-color: #7b7b7b;
+    width: 20%;
+}
+
+.sign-up ul li {
+    display: flex;
+    gap: 20px;
+}
+
+.sign-up ul {
+    padding-left: 10px;
+}
+
+.sign-up button {
+    margin-left: 25%;
+    background-color: #ff9100;
+    color: white;
+    border: 1px solid #ff9100;
+}
+
+.sign-up button:hover {
+    background-color: transparent;
+    color: #ff9100;
+}
+
+.background {
+    height: 50px;
+}
+
+#contact {
+    margin-right: 0;
+}
+
+table {
+    width: 60%;
+}
+
+table td {
+    width: 50%;
+    vertical-align: top;
+}
+ td input:not(.khong-duoc-bang-100), td textarea {
+    width: 100%;
+} 
+td select {
+    width: 102%;
+}
+
+td button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(245, 169, 55);
+    cursor: pointer;
+
+}
+
+.footer {
+    background-color: black;
+    height: 100%;
+    color: grey;
+    margin-top: 10%;
+}
+
+.headline {
+    display: flex;
+    padding-left: 15%;
+    padding-top: 2%;
+    gap: 1%;
+}
+
+.headline a {
+    text-decoration: none;
+    color: gray;
+}
+
+.social-media {
+   padding-left: 47%;
+}
+
+.bottom {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding: 5% 15%  ;
+}
