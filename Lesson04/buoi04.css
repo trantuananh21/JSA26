@@ -1,0 +1,20 @@
+/* Bai 2 */
+.header h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+.header h1:hover {
+    color:black;
+}
+
+/* Bai 4 */
+.number h2 {
+    background-color: orange;
+    color: white;
+    font-size: 100px;
+    padding: 15px;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 20px;
+}
