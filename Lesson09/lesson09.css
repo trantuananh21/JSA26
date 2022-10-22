@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {   
+    padding-left: 30%;
+    display: flex;
+    flex-direction:row;
+}
+
+#output img {
+    width: 50%;
+    height: 30%;
+    object-fit: cover;
+}
+
+#output p{
+    align-items: center;
+    justify-content: center;
+}
+
