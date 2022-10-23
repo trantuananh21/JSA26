@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    background-color: #333232;
+}
+
+#main img{
+    width: 15%;
+    height: 10%;
+    border: 3px #99fffc solid;
+    background-color: #99fffc;
+    border-radius: 10%;
+    padding: 1%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main h1 {
+    margin: 2%;  
+    color: white;
+}
